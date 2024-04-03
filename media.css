@@ -988,3 +988,232 @@
     right: 300px;
   }
 }
+
+@media (max-width: 320px) {
+  #hero {
+    width: 320px;
+  }
+  .container {
+    width: 90%;
+  }
+  .home {
+    padding: 10px;
+  }
+  .home h6 {
+    font-size: 12px;
+  }
+  .home ion-icon {
+    font-size: 14px;
+  }
+  .hero h1 {
+    font-size: 24px;
+  }
+  .hero p {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .hero button {
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    margin-left: -70px;
+  }
+  .club h1 {
+    font-size: 24px;
+  }
+  .main-club {
+    margin-left: 5px;
+    padding: 0;
+    width: 280px;
+    font-size: 12px;
+  }
+  .p-class {
+    width: 240px;
+  }
+  .club-one {
+    width: 280px;
+    padding-right: 5px;
+  }
+  .club-one p {
+    width: 250px;
+    margin-bottom: -8px;
+  }
+  .club-two p {
+    width: 250px;
+  }
+  .club-two li {
+    width: 230px;
+  }
+  .main-club h3 {
+    width: 290px;
+    font-size: 14px;
+  }
+  .club-one img {
+    left: 0;
+  }
+  .club-two img {
+    right: 150px;
+  }
+  .formath1 {
+    font-size: 24px;
+  }
+  .format-block {
+    width: 250px;
+    height: 200px;
+    margin-right: 85px;
+  }
+  .format-block:nth-child(2n + 1) {
+    width: 250px;
+    height: 250px;
+    margin-right: 625px;
+  }
+  .format-icon {
+    all: initial;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+  }
+  .format-block h3 {
+    font-size: 14px;
+    font-weight: 500;
+    width: 260px;
+    line-height: 18px;
+  }
+  .format-block p {
+    font-size: 10px;
+    width: 260px;
+    line-height: 15px;
+  }
+  .format-block button {
+    width: 150px;
+    font-size: 12px;
+  }
+  .travel h1 {
+    font-size: 24px;
+  }
+  .world img {
+    width: 272px;
+    margin-left: 16px;
+    height: 170px;
+  }
+  .world-text {
+    width: 231px;
+    margin: -40px 90px 0 0;
+  }
+  .world-text h3 {
+    font-size: 16px;
+  }
+  .world-text button {
+    width: 220px;
+    height: 35px;
+    margin: -7px 15px 0 10px;
+  }
+  .world-text p {
+    font-size: 2px;
+    font-weight: 200;
+    line-height: 10px;
+    margin: 10px;
+  }
+  .invist img {
+    width: 270px;
+    margin-left: 10px;
+    height: 170px;
+  }
+  .invist-text {
+    width: 264px;
+    height: 200px;
+    margin: -240px 0 0 10px;
+    padding: 10px 3px;
+  }
+  .invist-text h3 {
+    font-size: 16px;
+    margin: 10px;
+  }
+  .invist-text p {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 14px;
+    margin: -10px 10px 10px 10px;
+  }
+  .invist-text button {
+    width: 220px;
+    height: 40px;
+    margin: -7px 15px -7px 10px;
+  }
+  #land {
+    margin-top: -250px;
+  }
+
+  .process h1 {
+    font-size: 20px;
+    margin-left: -25px;
+  }
+  .process-block:nth-child(1n + 1) {
+    margin-left: 60px;
+  }
+  .process-block:nth-child(2n + 1) {
+    margin: 0;
+  }
+  .process-block h3 {
+    font-size: 32px;
+    font-weight: 700;
+    top: -30px;
+    left: 70px;
+  }
+  .process-block p {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .about-left h1 {
+    font-size: 20px;
+  }
+  .about-left p {
+    font-size: 12px;
+  }
+  .about-right h6 {
+    font-size: 10px;
+  }
+  .about-right input {
+    width: 270px;
+    height: 35px;
+  }
+  .about-right input::placeholder {
+    font-size: 10px;
+  }
+
+  .about-button h4 {
+    font-size: 12px;
+    margin-top: -20px;
+  }
+  .flag input::placeholder {
+    padding-left: 40px;
+  }
+  .flag-icon {
+    position: absolute;
+    top: 7365px;
+    right: 252px;
+  }
+  .footer1 {
+    margin: 10px 0;
+  }
+  .footer-block h3 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .footer-block p {
+    font-size: 10px;
+    line-height: 18px;
+    margin: 15px 0;
+  }
+  .footer-icon {
+    margin-bottom: 20px;
+  }
+  .footer-end {
+    padding-bottom: 10px;
+  }
+  .footer-end2 {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+}
