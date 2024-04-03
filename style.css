@@ -1,0 +1,590 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+button:hover {
+  box-shadow: 0 3px 3px 8px #1a5bff19;
+  transform: scale(1.1);
+}
+ul {
+  list-style: none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #1e2024;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.header-logo {
+  display: flex;
+  gap: 10px;
+}
+.header-logo h5 {
+  font-size: 8px;
+  font-weight: 400;
+  color: white;
+  line-height: 12px;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  color: #9099a3;
+  font-size: 14px;
+  font-weight: 400;
+}
+.menu-icon {
+  display: none;
+  background: transparent;
+}
+
+nav a:active {
+  color: white;
+}
+nav ul {
+  display: flex;
+  gap: 7.2rem;
+  list-style: none;
+}
+
+nav li img {
+  padding: 0 90px 0 50px;
+}
+
+#hero {
+  background: url(/css/image/bg.png) no-repeat center/cover;
+  min-height: 100vh;
+  position: relative;
+}
+.gradient {
+  position: absolute;
+  width: 100%;
+  right: 0;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: #9099a3;
+  cursor: pointer;
+  padding: 20px;
+}
+.home h6 {
+  padding-right: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+}
+.home h6:active {
+  color: white;
+}
+
+.home ion-icon:active {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+.hero h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+.hero p {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin: 25px 0;
+}
+.hero button {
+  width: 178px;
+  height: 40px;
+  background: #ff1a1a;
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.club h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  margin: 20px 0;
+}
+.main-club {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  width: 1200px;
+  height: 600px;
+  background: white;
+  border-radius: 10px;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2c3e50;
+  line-height: 21px;
+}
+.main-club h3 {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.main-club h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.p-class {
+  margin-bottom: 15px;
+}
+
+li {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+li ion-icon {
+  color: red;
+}
+
+.club-one {
+  position: relative;
+  padding-top: 50px;
+}
+.club-one img {
+  position: absolute;
+  bottom: 0;
+}
+.club-two {
+  position: relative;
+  padding-top: 50px;
+}
+
+.format {
+  margin: 100px 0;
+}
+.format-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.format h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  margin: 20px 0;
+}
+.format-block {
+  width: 480px;
+  height: 270px;
+  border-radius: 15px;
+  background: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.format-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.format-icon h2 {
+  color: #9099a3;
+  font-size: 24px;
+  font-weight: 900;
+}
+.format-block h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2c3e50;
+  line-height: 30px;
+}
+.format-block p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #2c3e50;
+  line-height: 21px;
+}
+.format-block button {
+  width: 180px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: none;
+  outline: none;
+  background: #ff1a1a;
+  margin-left: 300px;
+}
+.travel {
+  margin: 100px 0;
+}
+.travel h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.world {
+  display: flex;
+  width: 1200px;
+  height: 400px;
+}
+.world img {
+  width: 600px;
+  z-index: 2;
+  margin-left: -122px;
+}
+.world-text {
+  width: 650px;
+  background: white;
+  border-radius: 15px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.world-text h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+.world-text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.check {
+  display: flex;
+  gap: 70px;
+  margin: 40px 0;
+}
+
+.check-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.check-text ion-icon {
+  color: red;
+  font-size: 20px;
+}
+.world-text button {
+  width: 441px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: none;
+  outline: none;
+  background: #ff1a1a;
+}
+
+.invist {
+  display: flex;
+  width: 1200px;
+  height: 400px;
+}
+.invist-img {
+  width: 700px;
+  height: 400px;
+  z-index: 999;
+  margin-right: -172px;
+}
+.invist-text {
+  width: 650px;
+  background: white;
+  border-radius: 15px;
+  padding: 50px 0 0 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.world-text h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+.world-text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.check {
+  display: flex;
+  gap: 60px;
+  margin: 30px 0;
+}
+
+.check-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.invist-text button {
+  width: 441px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: none;
+  outline: none;
+  background: #ff1a1a;
+}
+#land h1 {
+  margin-left: 200px;
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+.moskva {
+  display: flex;
+  gap: 50px;
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  margin-left: -190px;
+  transition: 0.3s;
+}
+.moskva h2:active {
+  color: #ff1a1a;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.china {
+  display: flex;
+  gap: 90px;
+  margin: 10px 70px;
+  color: white;
+  font-size: 36px;
+  font-weight: 900;
+}
+.china h3:active {
+  color: #ff1a1a;
+  transform: scale(1.3);
+  cursor: pointer;
+}
+.milan {
+  display: flex;
+  gap: 100px;
+  margin: 40px 150px;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.milan h5:active {
+  color: #ff1a1a;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.process {
+  margin: 150px 0;
+}
+.process h1 {
+  margin: 150px 0;
+  font-size: 36px;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.process-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  align-items: start;
+}
+.process-block {
+  width: 238px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  gap: 10px;
+}
+
+.process-block h3 {
+  font-size: 36px;
+  font-weight: 900;
+  position: absolute;
+  top: -43px;
+  left: 70px;
+}
+
+.process-block p {
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  gap: 110px;
+}
+.about-left h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+}
+.about-left p {
+  color: #9099a3;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.about-right h6 {
+  color: #9099a3;
+  font-size: 14px;
+  font-weight: 400;
+}
+.about-right input {
+  all: initial;
+  width: 616px;
+  height: 60px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.173);
+  color: white;
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+.about-button {
+  display: flex;
+  gap: 80px;
+  margin: 30px 0;
+}
+.about-button h4 {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+.about-button button {
+  width: 280px;
+  height: 60px;
+  border-radius: 15px;
+  color: white;
+  background: #ff1a1a;
+  font-size: 18px;
+  font-weight: 700;
+}
+.flag input::placeholder {
+  padding-left: 50px;
+}
+.flag {
+  position: relative;
+}
+.flag-icon {
+  position: absolute;
+  color: white;
+  bottom: -4847px;
+  right: 760px;
+}
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+.footer-block h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+.footer-block p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9099a3;
+  line-height: 21px;
+  margin: 20px 0;
+}
+
+.footer-icon {
+  display: flex;
+  width: 210px;
+  gap: 20px;
+  flex-wrap: wrap;
+  transition: 0.3s;
+}
+.footer-icon img:hover {
+  box-shadow: 0 3px 3px 8px #1a5bff42;
+  transform: scale(1.3);
+  border-radius: 50px;
+}
+.footer-icon ion-icon {
+  background: white;
+
+  padding: 7px;
+  border-radius: 50px;
+}
+.footer-icon ion-icon:hover {
+  box-shadow: 0 3px 3px 8px #1a5bff42;
+  transform: scale(1.3);
+  border-radius: 50px;
+}
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.footer-end h6 {
+  color: #9099a3;
+  font-size: 10px;
+  font-weight: 400;
+}
+.footer-end2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+}
