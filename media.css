@@ -74,6 +74,10 @@
   .hero p {
     font-size: 16px;
   }
+  #hero {
+    width: 100%;
+    min-height: 40vh;
+  }
   .hero button {
     width: 150px;
     height: 35px;
@@ -105,18 +109,20 @@
     margin-left: -20px;
   }
   .world-text p {
-    width: 200px;
+    width: 400px;
+    margin-left: 10px;
   }
-  .check {
-    gap: 10px;
-    margin: 10px 0 20px 5px;
+  #travel.check {
+    display: flex;
+    justify-content: center;
+    margin: 0 250px;
   }
   .check-text {
     display: flex;
     justify-content: center;
   }
   .flag-icon {
-    bottom: -6077px;
+    bottom: -5307px;
     right: 615px;
   }
 
@@ -157,6 +163,10 @@
   }
   .milan {
     font-size: 22px;
+  }
+  .flag-icon {
+    bottom: -5268px;
+    right: 615px;
   }
 }
 @media (max-width: 768px) {
@@ -360,9 +370,9 @@
   .flag-icon {
     position: absolute;
     color: white;
-    top: 7077px;
+    top: 6962px;
 
-    right: 392px;
+    right: 394px;
   }
   #format {
     width: 768px;
@@ -780,12 +790,18 @@
     color: black;
     padding: 20px;
   }
+  .world-text p {
+    width: 270px;
+  }
   .check {
     display: none;
   }
   .world-text button {
     width: 300px;
     margin: 40px 10px 15px 0;
+  }
+  #invist {
+    margin-top: -50px;
   }
   .invist img {
     width: 340px;
@@ -815,6 +831,7 @@
     font-size: 20px;
     font-weight: 700;
     padding-left: 50px;
+    margin-bottom: 80px;
   }
 
   .process-block:nth-child(1n + 1) {
@@ -842,7 +859,7 @@
     font-size: 14px;
   }
   .flag-icon {
-    top: 7952px;
+    top: 7746px;
 
     right: 330px;
   }
@@ -869,10 +886,10 @@
     font-size: 12px;
   }
 }
-
 @media (max-width: 376px) {
   #hero {
     width: 100%;
+    height: 90%;
   }
   .club h1 {
     font-size: 24px;
@@ -982,10 +999,87 @@
     width: 265px;
     margin: 30px 25px 5px 0;
   }
+  .process h1 {
+    margin-bottom: 90px;
+  }
+  .moskva {
+    font-size: 26px;
+  }
+  .milan {
+    margin: -5px 0;
+  }
   .flag-icon {
-    top: 7815px;
+    top: 8010px;
 
     right: 300px;
+  }
+}
+@media (max-width: 360px) {
+  .flag-icon {
+    top: 7622px;
+
+    right: 278px;
+  }
+}
+@media (max-width: 355px) {
+  .format-block {
+    width: 280px;
+    height: 280px;
+    padding: 15px;
+    margin: 0;
+    margin-right: 60px;
+    gap: 10px;
+    background: white;
+  }
+  .format-block:nth-child(2n + 1) {
+    width: 280px;
+    height: 280px;
+    padding: 15px;
+    margin-left: 518px;
+  }
+  .format-block p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .format-block h3 {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  .world-text p {
+    width: 270px;
+  }
+  .world-text button {
+    margin: 50px 20px 0 0;
+    width: 260px;
+  }
+  #land {
+    height: 200px;
+  }
+  .world img {
+    margin-right: 200px;
+  }
+  .world-text {
+    margin-right: 69px;
+  }
+  .invist-img img {
+    margin-left: 1px;
+  }
+  .invist-text {
+    margin-left: 1px;
+  }
+  .process-block:nth-child(1n + 1) {
+    margin-left: 70px;
+  }
+  .process-block:nth-child(2n + 1) {
+    margin: 0;
+  }
+  .about-right input {
+    width: 300px;
+  }
+  .flag-icon {
+    top: 7900px;
+
+    right: 274px;
   }
 }
 
@@ -1060,12 +1154,12 @@
   .format-block {
     width: 250px;
     height: 200px;
-    margin-right: 85px;
+    margin-right: 90px;
   }
   .format-block:nth-child(2n + 1) {
     width: 250px;
     height: 250px;
-    margin-right: 625px;
+    margin-right: 600px;
   }
   .format-icon {
     all: initial;
@@ -1088,6 +1182,9 @@
     width: 150px;
     font-size: 12px;
   }
+  #travel {
+    margin-bottom: -150px;
+  }
   .travel h1 {
     font-size: 24px;
   }
@@ -1098,7 +1195,8 @@
   }
   .world-text {
     width: 231px;
-    margin: -40px 90px 0 0;
+    margin: -40px 100px 0 0;
+    height: 200px;
   }
   .world-text h3 {
     font-size: 16px;
@@ -1106,14 +1204,17 @@
   .world-text button {
     width: 220px;
     height: 35px;
-    margin: -7px 15px 0 10px;
+    margin: 20px 15px 0 10px;
   }
   .world-text p {
-    font-size: 2px;
+    font-size: 14px;
     font-weight: 200;
-    line-height: 10px;
-    margin: 10px;
+    line-height: 14px;
+    padding: 5px;
+    margin-left: -5px;
+    width: 230px;
   }
+
   .invist img {
     width: 270px;
     margin-left: 10px;
@@ -1190,8 +1291,8 @@
   }
   .flag-icon {
     position: absolute;
-    top: 7365px;
-    right: 252px;
+    top: 7096px;
+    right: 250px;
   }
   .footer1 {
     margin: 10px 0;
