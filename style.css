@@ -184,7 +184,10 @@ li ion-icon {
   position: relative;
   padding-top: 50px;
 }
-
+.formar-gradient {
+  position: absolute;
+  left: 320px;
+}
 .format {
   margin: 100px 0;
 }
@@ -373,6 +376,9 @@ li ion-icon {
   border: none;
   outline: none;
   background: #ff1a1a;
+}
+.land-BG {
+  position: absolute;
 }
 #land h1 {
   margin-left: 200px;

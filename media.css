@@ -122,7 +122,7 @@
     justify-content: center;
   }
   .flag-icon {
-    bottom: -5307px;
+    bottom: -5115px;
     right: 615px;
   }
 
@@ -165,7 +165,7 @@
     font-size: 22px;
   }
   .flag-icon {
-    bottom: -5268px;
+    bottom: -5097px;
     right: 615px;
   }
 }
@@ -215,13 +215,14 @@
   }
   .p-class {
     margin-bottom: 8px;
+    padding-left: 10px;
   }
 
   .club-one {
     padding-top: 20px;
   }
   .club-one p {
-    padding-left: 20px;
+    padding: 0 8px;
   }
   .club-one img {
     bottom: 0;
@@ -370,7 +371,7 @@
   .flag-icon {
     position: absolute;
     color: white;
-    top: 6962px;
+    top: 7133px;
 
     right: 394px;
   }
@@ -537,7 +538,7 @@
     position: absolute;
     color: white;
     right: 490px;
-    top: 7633px;
+    top: 7803px;
   }
 }
 @media (max-width: 451px) {
@@ -701,6 +702,7 @@
     flex-direction: column;
   }
 }
+
 @media (max-width: 408px) {
   .container {
     width: 90%;
@@ -1009,7 +1011,7 @@
     margin: -5px 0;
   }
   .flag-icon {
-    top: 8010px;
+    top: 7620px;
 
     right: 300px;
   }
